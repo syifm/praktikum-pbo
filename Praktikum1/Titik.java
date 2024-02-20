@@ -31,7 +31,7 @@ public class Titik{
         return ordinat;
     }
 
-    static double getcounterTitik(){
+    static double getCounterTitik(){
         return counterTitik;
     }
 }
