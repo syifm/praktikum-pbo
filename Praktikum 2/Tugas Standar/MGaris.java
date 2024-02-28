@@ -25,6 +25,11 @@ public class MGaris {
 
         //getRefleksiY
         Garis GRefleksiY = G.getRefleksiY();
+        Titik tAwalRefleksiY = GRefleksiY.getTitikAwal();
+        Titik tAkhirRefleksiY = GRefleksiY.getTitikAkhir();
+
+        System.out.println("Titik awal adalah (" + tAwalRefleksiY.getAbsis() + ", " + tAwalRefleksiY.getOrdinat() + ")");
+        System.out.println("Titik akhir adalah (" + tAkhirRefleksiY.getAbsis() + ", " + tAkhirRefleksiY.getOrdinat() + ")");
         System.out.println("Garis setelah direfleksikan terhadap sumbu Y adalah " + GRefleksiY.getGradien());
 
         //isTegakLurus
