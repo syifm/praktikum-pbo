@@ -22,6 +22,10 @@ public class Segitiga {
         return tinggi;
     }
 
+    public double getSisiMiringSegitiga(){
+        return Math.sqrt(Math.pow(getAlas()/2, 2) + Math.pow(getTinggiSegitiga(), 2));
+    }
+
     public double hitungLuas(){
         return (0.5 * getAlas() * getTinggiSegitiga());
     }
