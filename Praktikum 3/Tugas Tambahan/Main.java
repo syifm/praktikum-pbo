@@ -1,7 +1,7 @@
 /*
  * Nama      : Asy'syifa Shabrina Munir
  * NIM       : 24060122130055
- * File      : Pesanan.java
+ * File      : Main.java
  * Deskripsi : Main class dari program Menu dan Pesanan
  */
 
