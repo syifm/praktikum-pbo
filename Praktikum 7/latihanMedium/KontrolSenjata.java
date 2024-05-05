@@ -7,7 +7,7 @@
 package latihanMedium;
 
 public class KontrolSenjata {
-    private Senjata senjata;
+    Senjata senjata;
     
     public KontrolSenjata(Senjata s){
         senjata = s;
